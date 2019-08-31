@@ -11,6 +11,10 @@ app.get("/", (req, res) => {
   res.send("home");
 });
 
+app.get("/albert", (req, res) => {
+  res.send("albert");
+});
+
 app.get("/chan", (req, res) => {
   let x = "asdasdasd";
   res.send(x);
