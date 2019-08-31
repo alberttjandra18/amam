@@ -15,6 +15,8 @@ app.get("/albert", (req, res) => {
   res.send("albert");
 });
 
+app.get;
+
 app.get("/chan", (req, res) => {
   let x = "asdasdasd";
   res.send(x);
